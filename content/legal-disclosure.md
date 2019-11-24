@@ -5,6 +5,7 @@ draft: false
 ---
 
 Information in accordance with Section 5 TMG 
+
 Niklas Arnitz
 
 Friedenstraße 30
