@@ -1,4 +1,4 @@
-baseurl = "https://niklasarnitz.codes"
+baseurl = "//niklasarnitz.codes"
 title = "Niklas Arnitz"
 theme = "hugo-coder"
 languagecode = "en"
