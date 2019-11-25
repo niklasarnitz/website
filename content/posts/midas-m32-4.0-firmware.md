@@ -2,8 +2,8 @@
 title = "First Impressions of the Midas M32 4.0 firmware update"
 date = 2019-11-25T14:13:10+01:00
 draft = false
-tags = ["m32,midas"]
-categories = []
+tags = ["midas", "m32"]
+categories = ["event technology"]
 +++
 
 **Introduction**
