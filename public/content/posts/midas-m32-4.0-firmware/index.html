@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Niklas Arnitz">
+    <meta name="description" content="Niklas Arnitz&#39; portfolio">
+    <meta name="keywords" content="developer,personal,portfolio,ios,macos,swift,developer">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="New Midas M32 4.0 Firmware"/>
+<meta name="twitter:description" content="Introduction
+Midas released Version 4.0 of its firmware for their great M32 mixer last week. Since I worked quite a bit using the new version, I would like to document some findings here.
+New Features
+The new 4.0 release of the M32 firmware brings many new features to the table.
+The most obvious feature is the much-improved UI. The darker, more flat UI appeals to me much more than the &ldquo;old&rdquo; UI of the M32."/>
+
+    <meta property="og:title" content="New Midas M32 4.0 Firmware" />
+<meta property="og:description" content="Introduction
+Midas released Version 4.0 of its firmware for their great M32 mixer last week. Since I worked quite a bit using the new version, I would like to document some findings here.
+New Features
+The new 4.0 release of the M32 firmware brings many new features to the table.
+The most obvious feature is the much-improved UI. The darker, more flat UI appeals to me much more than the &ldquo;old&rdquo; UI of the M32." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//niklasarnitz.codes/content/posts/midas-m32-4.0-firmware/" />
+<meta property="article:published_time" content="2019-11-24T15:19:26+01:00" />
+<meta property="article:modified_time" content="2019-11-24T15:19:26+01:00" />
+
+
+    
+      <base href="//niklasarnitz.codes/content/posts/midas-m32-4.0-firmware/">
+    
+    <title>
+  New Midas M32 4.0 Firmware · Niklas Arnitz
+</title>
+
+    
+      <link rel="canonical" href="//niklasarnitz.codes/content/posts/midas-m32-4.0-firmware/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="//niklasarnitz.codes/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="//niklasarnitz.codes/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//niklasarnitz.codes/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.59.1" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="//niklasarnitz.codes">
+      Niklas Arnitz
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//niklasarnitz.codes/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//niklasarnitz.codes/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//niklasarnitz.codes/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//niklasarnitz.codes/privacy/">Privacy</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//niklasarnitz.codes/terms-and-conditions/">Terms and Conditions</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//niklasarnitz.codes/legal-disclosure/">Legal Disclosure</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>New Midas M32 4.0 Firmware</h1>
+    </header>
+
+    <p><strong>Introduction</strong></p>
+
+<p>Midas released Version 4.0 of its firmware for their great M32 mixer last week. Since I worked quite a bit using the new version, I would like to document some findings here.</p>
+
+<p><strong>New Features</strong></p>
+
+<p>The new 4.0 release of the M32 firmware brings many new features to the table.</p>
+
+<p>The most obvious feature is the much-improved UI. The darker, more flat UI appeals to me much more than the &ldquo;old&rdquo; UI of the M32.</p>
+
+<p>With the new UI there come a few different features:</p>
+
+<ul>
+<li>In the RTA view (in the EQ-view as well as the RTA Metering view) now has a spectrometer like coloring scheme (can be turned off/on globally in the Meters -&gt; RTA view)</li>
+<li>There now is a reworked Routing UI that allows for one on one routing</li>
+<li>The reworked Routing UI features a button to switch between a &ldquo;Playback Routing&rdquo; and a &ldquo;Recording Routing&rdquo; f.e. a USB-Playback routing from your DAW and a normal live Routing for recording. These are more or less just two different, hot switchable routing presets.</li>
+<li>The Scribble Scrip Text-Input was vastly improved and now features auto-completion (That is a huge plus not to type everything a hundred times)</li>
+</ul>
+
+<p><strong>Criticism</strong></p>
+
+<p>While many features impressed me and me quite like them, some decisions kinda get me to want the 3.0 release back. The first thing ist the fader speed. It is so slow! I know many mixers on the market do it at a comparable speed, but the M32 felt so much quicker before the update! This, fortunately, can be rolled back by a downgrade of the fader firmware you can toggle in the settings. The Second big weak point of the mixer in 4.0 is, that the option to treat DCA-groups as mute groups (that the channels muted by a DCA blink :D) is off by default, even if it was activated before the update. This, of course, can be activated again in the settings.</p>
+
+<p><strong>Conclusion</strong></p>
+
+<p>All in all, I love the new update for the M32. It just creates a more modern and wholesome user experience. And after I returned the mixer to the settings I was accustomed to before the update, I have to say, the M32 is just a better mixer with the new software update.</p>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>©Niklas Arnitz 2019</p>
+    
+    
+    
+      
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

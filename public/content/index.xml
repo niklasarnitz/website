@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on Niklas Arnitz</title>
+    <link>//niklasarnitz.codes/content/</link>
+    <description>Recent content in Contents on Niklas Arnitz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Nov 2019 15:19:26 +0100</lastBuildDate>
+    
+	<atom:link href="//niklasarnitz.codes/content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Midas M32 4.0 Firmware</title>
+      <link>//niklasarnitz.codes/content/posts/midas-m32-4.0-firmware/</link>
+      <pubDate>Sun, 24 Nov 2019 15:19:26 +0100</pubDate>
+      
+      <guid>//niklasarnitz.codes/content/posts/midas-m32-4.0-firmware/</guid>
+      <description>Introduction
+Midas released Version 4.0 of its firmware for their great M32 mixer last week. Since I worked quite a bit using the new version, I would like to document some findings here.
+New Features
+The new 4.0 release of the M32 firmware brings many new features to the table.
+The most obvious feature is the much-improved UI. The darker, more flat UI appeals to me much more than the &amp;ldquo;old&amp;rdquo; UI of the M32.</description>
+    </item>
+    
+  </channel>
+</rss>
