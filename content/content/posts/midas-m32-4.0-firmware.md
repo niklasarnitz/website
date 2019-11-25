@@ -1,6 +1,7 @@
 ---
 date: 2019-11-24T15:19:26+01:00
 title: "New Midas M32 4.0 Firmware"
+type: "post"
 tags:  []
 categories:  []
 series: []
