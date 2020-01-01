@@ -13,7 +13,7 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Niklas Arnitz"
-    info = "Software Engineer & Developer"
+    info = "Software Developer & Sound Engineer"
     description = "Niklas Arnitz' portfolio"
     keywords = "developer,personal,portfolio,ios,macos,swift,developer"
     avatarurl = "images/avatar.jpg"
