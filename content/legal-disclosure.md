@@ -16,7 +16,7 @@ Friedenstraße 30
 
 Telephone: +49 176 41478167
 
-E-Mail address: [me@niklasarnitz.codes](mailto:me@niklasarnitz.codes)
+E-Mail address: [webmaster@niklasarnitz.com](mailto:webmaster@niklasarnitz.com)
 
 ## Disclaimer
 
