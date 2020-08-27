@@ -9,4 +9,4 @@ Betreuung des 5SterneSommer-Freizeit-Teams während der 2. und 3. Woche der Frei
 
 Danke an [FSound](https://fsound.de) für die Bereitstellung der Tontechnik.
 
-![IMG_20200820_095913](/static/IMG_20200820_095913.png)
+![IMG_20200820_095913](/IMG_20200820_095913.png)
