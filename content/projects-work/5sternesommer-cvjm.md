@@ -5,8 +5,8 @@ title = "Livestream Audio für die 5SterneSommer-Freizeit des EJW"
 slug = ""
 +++
 
-Betreuung des 5SterneSommer-Freizeit-Teams während der 2. und 3. Woche der Freizeit im Bereich der Tontechnik.
+Betreung der Tontechnik bei der 5SterneSommer-Freizeit während der 2. und 3. Woche (15.08.2020-28.08.2020).
 
-Danke an [FSound](https://fsound.de) für die Bereitstellung der Tontechnik.
+Danke an [FSound](https://fsound.de) für die Bereitstellung der Technik.
 
 ![IMG_20200820_095913](/IMG_20200820_095913.png)
