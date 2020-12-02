@@ -1,6 +1,6 @@
 baseurl = "//niklasarnitz.com"
 title = "Niklas Arnitz"
-theme = ["hugo-coder" "plausible-hugo"]
+theme = ["hugo-coder", "plausible-hugo"]
 languagecode = "en"
 defaultcontentlanguage = "en"
 
