@@ -1,6 +1,6 @@
 baseurl = "//niklasarnitz.com"
 title = "Niklas Arnitz"
-theme = "hugo-coder"
+theme = ["hugo-coder" "plausible-hugo"]
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -25,6 +25,10 @@ pygmentscodefencesguesssyntax = true
 
     hidecredits = false
     hidecopyright = true
+
+[[params.plausible]]
+    enable = true
+    domain = "niklasarnitz.com"
 
 # Social links
 [[params.social]]
