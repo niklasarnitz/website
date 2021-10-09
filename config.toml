@@ -28,6 +28,7 @@ pygmentscodefencesguesssyntax = true
 
 [[params.plausible]]
     enable = true
+    selfhosted_domain = "analytics.niklasarnitz.com"
     domain = "niklasarnitz.com"
 
 # Social links
