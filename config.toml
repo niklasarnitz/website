@@ -1,6 +1,6 @@
 baseurl = "//niklasarnitz.com"
 title = "Niklas Arnitz"
-theme = ["hugo-coder", "plausible-hugo"]
+theme = ["hugo-coder"]
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -10,6 +10,10 @@ canonifyurls = true
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+[module]
+    [[module.imports]]
+        path = "github.com/divinerites/plausible-hugo"
 
 [params]
     author = "Niklas Arnitz"
