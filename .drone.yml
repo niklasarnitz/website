@@ -22,5 +22,5 @@ steps:
 - name: Upload 
   image: jguyomard/hugo-builder
   commands:
-  - rsync -rv /drone/src/build/ /mnt/data/nginx/var/www/niklasarnitz.com --checksum
+  - rsync -rv /drone/src/build/ /var/www/niklasarnitz.com/ --checksum
   
