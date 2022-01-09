@@ -24,9 +24,8 @@ steps:
   - hugo --destination /drone/src/build
 
 - name: Minify
-  image: node
+  image: tdewolff/minify
   commands:
-    - npm install -g minify
     - minify -r -o /drone/src/build /drone/src/build
 
 - name: Upload 
