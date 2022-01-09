@@ -21,12 +21,7 @@ steps:
 - name: Build 
   image: klakegg/hugo
   commands:
-  - hugo --destination /drone/src/build
-
-- name: Minify
-  image: tdewolff/minify
-  commands:
-    - minify -r -o /drone/src/build /drone/src/build
+  - hugo --destination /drone/src/build --minify
 
 - name: Upload 
   image: klakegg/hugo
