@@ -11,10 +11,6 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-[module]
-    [[module.imports]]
-        path = "github.com/divinerites/plausible-hugo"
-
 [params]
     author = "Niklas Arnitz"
     info = "Software Developer & Sound Engineer"
@@ -29,11 +25,6 @@ pygmentscodefencesguesssyntax = true
 
     hidecredits = false
     hidecopyright = true
-
-[[params.plausible]]
-    enable = true
-    selfhosted_domain = "analytics.niklasarnitz.com"
-    domain = "niklasarnitz.com"
 
 # Social links
 [[params.social]]
