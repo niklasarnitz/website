@@ -45,7 +45,7 @@ pygmentscodefencesguesssyntax = true
 
 [params.plausibleAnalytics]
     domain = "niklasarnitz.com"
-    serverURL = "plausible.niklas.services"
+    serverURL = "plausible.io"
 
 # Menu links
 [[menu.main]]
