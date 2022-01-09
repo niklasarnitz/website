@@ -24,7 +24,7 @@ steps:
   - hugo --destination /drone/src/build --minify
 
 - name: Upload 
-  image: klakegg/hugo
+  image: jguyomard/hugo-builder
   commands:
   - eval `ssh-agent -s`
   - echo "$SSH_KEY" | ssh-add -
