@@ -11,21 +11,21 @@ steps:
   image: alpine/git
   commands:
   - git submodule update --init --recursive
-  
+
 - name: Version Check
-  image: jguyomard/hugo-builder
+  image: klakegg/hugo
   commands:
   - echo "Checking hugo version"
   - hugo version
 
 - name: Build 
-  image: jguyomard/hugo-builder
+  image: klakegg/hugo
   commands:
   - hugo --destination /drone/src/build
   - minify -r -o /drone/src/build /drone/src/build
 
 - name: Upload 
-  image: jguyomard/hugo-builder
+  image: klakegg/hugo
   commands:
   - eval `ssh-agent -s`
   - echo "$SSH_KEY" | ssh-add -
