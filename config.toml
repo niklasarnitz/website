@@ -43,6 +43,10 @@ pygmentscodefencesguesssyntax = true
     weight = 3
     url = "https://linkedin.com/in/niklas-arnitz-941250174/"
 
+[params.plausibleAnalytics]
+    domain = "niklasarnitz.com"
+    serverURL = "plausible.niklas.services"
+
 # Menu links
 [[menu.main]]
     name = "Blog"
