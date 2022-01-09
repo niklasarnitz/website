@@ -1,0 +1,26 @@
+---
+kind: pipeline
+type: docker
+name: default
+trigger:
+  branch: 
+  - master
+
+steps:
+- name: Version Check
+  image: jguyomard/hugo-builder
+  commands:
+  - echo "Checking hugo version"
+  - hugo version
+
+- name: Build 
+  image: jguyomard/hugo-builder
+  commands:
+  - hugo --destination /drone/src/build
+  - minify -r -o /drone/src/build /drone/src/build
+
+- name: Upload 
+  image: jguyomard/hugo-builder
+  commands:
+  - rsync -rv /drone/src/build/ /mnt/data/nginx/var/www/niklasarnitz.com --checksum
+  
