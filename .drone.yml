@@ -7,7 +7,7 @@ trigger:
   - master
 
 steps:
-- name: submodules
+- name: Get Submodules
   image: alpine/git
   commands:
   - git submodule update --init --recursive
@@ -22,7 +22,12 @@ steps:
   image: klakegg/hugo
   commands:
   - hugo --destination /drone/src/build
-  - minify -r -o /drone/src/build /drone/src/build
+
+- name: Minify
+  image: node
+  commands:
+    - npm install -g minify
+    - minify -r -o /drone/src/build /drone/src/build
 
 - name: Upload 
   image: klakegg/hugo
